@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/sp541385iya13t5k?svg=true)](https://ci.appveyor.com/project/Turovae/ra16-forms-hex2rgb)s
+
+---
+
 Конвертер цветов из HEX в RGB
 ===
 
