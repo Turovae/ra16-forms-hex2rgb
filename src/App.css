@@ -58,12 +58,20 @@
   border: none;
   background-color: #fff;
   border: 1px solid #ccc;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  /* height: 30px; */
   display: block;
   text-align: center;
+  /* vertical-align: middle; */
+  font-size: 12px;
+  line-height: 14px;
+  padding: 10px 0;
 }
 
 .input {
   margin-bottom: 5px;
+}
+
+.result {
+  min-height: 36px;
 }
