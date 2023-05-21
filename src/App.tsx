@@ -36,7 +36,7 @@ function App() {
 
     if (
       length > 7
-      ||  (length === 4 && !relevanted3)
+      // ||  (length === 4 && !relevanted3)
       || (length === 7 && ! relevanted6)
     ) {
       setMsg(errMsg);
@@ -64,22 +64,6 @@ function App() {
     const rgbCode = `rgb(${decChunks.join(' ,')})`;
     setRgbCode(rgbCode);
     setMsg(rgbCode);
-
-    // if (relevanted6.test(value)) {
-    //   const code = value.substring(1)
-
-    //   const hexChunks = chunk(code, 2);
-
-    //   const decChunks = getDecChunks(hexChunks);
-
-    //   const rgbCode = `rgb(${decChunks.join(' ,')})`;
-    //   console.log(rgbCode);
-
-    //   setRgbCode(rgbCode);
-
-    //   console.log(hexChunks);
-    //   console.log(decChunks);
-    // }
   }
 
   return (
